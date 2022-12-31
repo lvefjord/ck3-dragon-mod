@@ -1,0 +1,34 @@
+﻿dragon_egg_decision = {
+	title = "Claim a Dragon Egg"
+	desc = "You will claim a dragon egg which may hatch into a dragon"
+	confirm_text = "Claim"
+	selection_tooltip = "Claim an Egg"
+	picture = "gfx/interface/illustrations/decisions/decision_activity.dds"
+
+	major = yes
+	
+	is_shown = {
+		NOT = {
+			any_character_artifact = {
+			artifact_type = dragon_egg
+			}
+		}
+	}
+
+	ai_check_interval = 1
+
+	effect = {
+		create_artifact = {
+			name = "Dragon Egg"
+			description = "A Dragon Egg from a fresh clutch."
+			type = dragon_egg
+			visuals = dragonegg
+			history = {
+				type = created_before_history
+			}
+			modifier = artifact_monthly_prestige_add_4_modifier
+			decaying = no
+			#save_scope_as = a_crown
+		}
+	}
+}

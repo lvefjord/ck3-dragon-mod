@@ -1,0 +1,3 @@
+﻿dragonegg = {
+	icon = "artifact_dragonegg.dds"
+}
