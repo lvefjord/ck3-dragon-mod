@@ -20,7 +20,11 @@
 	ai_check_interval = 1
 
 	effect = {
+<<<<<<< HEAD
 		start_dragon_story_cycle_effect = yes
+=======
+		
+>>>>>>> parent of 4e1d469 (Stuff)
 	}
 
 }
