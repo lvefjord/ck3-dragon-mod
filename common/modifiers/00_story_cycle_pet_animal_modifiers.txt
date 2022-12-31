@@ -1,0 +1,7 @@
+﻿#Modifiers granted from pet animals
+
+#dragon_story_modifier = {
+#	icon = dragon_positive
+#	prowess = 3
+#	diplomacy = 3
+#}
