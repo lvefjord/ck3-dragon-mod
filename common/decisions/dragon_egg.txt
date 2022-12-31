@@ -10,7 +10,7 @@
 	is_shown = {
 		NOT = {
 			any_character_artifact = {
-			artifact_type = dragon_egg
+				artifact_type = dragon_egg
 			}
 		}
 	}
@@ -28,7 +28,7 @@
 			}
 			modifier = artifact_monthly_prestige_add_4_modifier
 			decaying = no
-			#save_scope_as = a_crown
+			save_scope_as = my_egg
 		}
 	}
 }
