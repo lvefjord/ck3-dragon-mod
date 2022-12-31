@@ -20,7 +20,9 @@
 	ai_check_interval = 1
 
 	effect = {
-		start_dragon_story_cycle_effect = yes
+		scope:newly_created_artifact = {
+			destroy_artifact = this
+		}
 	}
 
 }
