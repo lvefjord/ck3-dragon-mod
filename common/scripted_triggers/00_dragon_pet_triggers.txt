@@ -1,43 +1,16 @@
 ﻿
-#Triggers revolving around pets
+#Triggers revolving around dragons
 
 
-has_cat_or_dog_trigger = {
-	OR = {
-		has_cat_trigger = yes
-		has_dog_trigger = yes
-	}
-}
-
-has_named_cat_or_dog_trigger = {
-	OR = {
-		has_named_cat_trigger = yes
-		has_named_dog_trigger = yes
-	}
-}
-
-has_cat_trigger = {
+has_dragon_trigger = {
 	any_owned_story = {
-		story_type = story_cycle_pet_cat
+		story_type = story_cycle_pet_dragon
 	}
 }
 
-has_named_cat_trigger = {
+has_named_dragon_trigger = {
 	any_owned_story = {
-		story_type = story_cycle_pet_cat
+		story_type = story_cycle_pet_dragon
 	}
-	exists = var:story_cycle_cat_name
-}
-
-has_dog_trigger = {
-	any_owned_story = {
-		story_type = story_cycle_pet_dog
-	}
-}
-
-has_named_dog_trigger = {
-	any_owned_story = {
-		story_type = story_cycle_pet_dog
-	}
-	exists = var:story_cycle_dog_name
+	exists = var:story_cycle_dragon_name
 }
